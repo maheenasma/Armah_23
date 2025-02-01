@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ar_mah!!</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+      color: #333;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      overflow: hidden;
+    }
+    .card {
+      background: #fff;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      border-radius: 10px;
+      padding: 20px;
+      text-align: center;
+      width: 90%;
+      max-width: 400px;
+    }
+    .heart {
+      font-size: 50px;
+      color: #ff6b6b;
+      animation: beat 1s infinite;
+    }
+    @keyframes beat {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+    }
+    button {
+      background-color: #ff6b6b;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      margin-top: 15px;
+      transition: background-color 0.3s;
+    }
+    button:hover {
+      background-color: #e55b5b;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Hello Babyyy!</h1>
+    <p>Wasssuupppp!!!???</p>
+    <p class="heart">❤️</p>
+    <p>You mean the world to me, and I love you more than words can express.</p>
+    <button onclick="forgiveMe()">Click me</button>
+  </div>
+  <script>
+    function forgiveMe() {
+      alert('I love you!❤️');
+    }
+  </script>
+</body>
+</html>
